@@ -204,14 +204,31 @@
             .overlay-text h3 {
                 margin-bottom: 0.1em;
             }
-            .overlay-text h5 {
-                margin-top: 0.1em;
-                margin-bottom: 0.3em;
-            }
             .overlay-text h6 {
                 font-weight: normal;
                 margin-top: 0.1em;
                 margin-bottom: 0.3em;
+            }
+            .overlay-text h5 {
+                margin-top: 0.1em;
+                margin-bottom: 0.3em;
+            }
+        }
+        @media (min-width: 768px) {
+            .overlay-text h3 {
+                font-size: 2em;
+                margin-bottom: 1em;
+            }
+            .overlay-text h6 {
+                font-size: 1.2em;
+                font-weight: normal;
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+            .overlay-text h5 {
+                font-size: 1.4em;
+                margin-top: 1em;
+                margin-bottom: 1em;
             }
         }
     </style>
@@ -219,18 +236,18 @@
 <body>
     <header>
         <div class="header-title">
-            <img src="images/logo.png" alt="Logo" class="header-logo">
+            <img src="images/logo.webp" alt="Logo" class="header-logo">
         </div>
     </header>
     <div class="banner">
         <a href="https://wa.me/+543492604461" target="_blank" class="banner-link">
-            <img src="images/banner-image.png" alt="Banner Image" class="banner-image">
+            <img src="images/banner-image.webp" alt="Banner Image" class="banner-image">
             <h2 class="banner-text">Tocá acá para hacer tu pedido</h2>
         </a>
     </div>
     <div class="container">
         <div class="section" id="left-section" onclick="window.location.href='https://example.com/left'">
-            <img src="images/left-image.jpg" alt="Left Image">
+            <img src="images/left-image.webp" alt="Image Superpanchos">
             <div class="overlay-text">
                 <h3>Superpanchos</h3>
                 <h6>60 superpanchos + panes</h6>
@@ -238,7 +255,7 @@
             </div>
         </div>
         <div class="section" id="middle-section" onclick="window.location.href='https://example.com/middle'">
-            <img src="images/middle-image.jpg" alt="Middle Image">
+            <img src="images/middle-image.webp" alt="Image Hamburguesas">
             <div class="overlay-text">
                 <h3>Hamburguesas</h3>
                 <h6>40 hamburguesas + panes</h6>
@@ -246,7 +263,7 @@
             </div>
         </div>
         <div class="section" id="right-section" onclick="window.location.href='https://example.com/right'">
-            <img src="images/right-image.jpg" alt="Right Image">
+            <img src="images/right-image.webp" alt="Image Fritas">
             <div class="overlay-text">
                 <h3>Papas fritas</h3>
                 <h6>4 bolsas de 2,500kg</h6>
